@@ -8,8 +8,8 @@ from selenium.webdriver.common.by import By
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 
-EXCEL_FILE = "/home/njjlim/Downloads/NEOS Test 3_03202026_IN.xlsx"
-OUTPUT_FILE = "/home/njjlim/Downloads/NEOS Test 3_03202026_OUT.xlsx"
+EXCEL_FILE = "/home/njjlim/python_projects/NEOS Test 3_03202026_IN.xlsx"
+OUTPUT_FILE = "/home/njjlim/python_projects/NEOS Test 3_03202026_OUT.xlsx"
 
 
 def clean_percent_to_float(text):
